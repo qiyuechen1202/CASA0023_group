@@ -1,20 +1,31 @@
 ---
-title: "Thermal Environment in Hongkong"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "Thermal environment in Hongkong"
+subtitle: ""
+author: "Group"
+institute: "CASA,UCL"
+date: "2024/1/18 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
+    css: ["xaringan-themer.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 ---
-# Introduction 
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#47B5A4",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
 
+```
 
+# Introduction
+ ![figure](source/example.png)
 ---
 
 ```{r setup, include=FALSE}
@@ -23,7 +34,7 @@ options(htmltools.dir.version = FALSE)
 
 ???
 
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+Image credit: [Wikimedia Commons](source/example.png)
 
 ---
 class: center, middle
