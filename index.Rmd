@@ -304,6 +304,7 @@ Source: `r Citet(myBib, "PGSD2007")`
 
 .pull-left[
 Three main strategies:
+
 **Heat Mitigation Strategies**
 - Tree Plantings（$82 million）
 - Cool Roofs（over $4 million）
