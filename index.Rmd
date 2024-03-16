@@ -281,10 +281,100 @@ Mearsures to tackle urban heat
 
 Source: `r Citet(myBib, "TLC2020")`
 ]
+---
+class: inverse, center, middle
 
+# Policy: Case study
 
 ---
+# Case study
 
+.pull-left[
+###"Cool Neighborhoods NYC" 
+It is an innovative, citywide effort initiated by New York City to tackle extreme heat, which contributes to more deaths annually than all other natural disasters combined. The investment budget for the programme is $106 million.
+
+The Cool Neighborhoods NYC project identifies heat vulnerability through the development and use of the Heat Vulnerability Index (HVI), a composite index that combines a variety of physical and social indicators that affect a community's heat vulnerability.
+]
+.pull-right[
+![](source/HVI.png)
+]
+Source: `r Citet(myBib, "PGSD2007")`
+---
+# Case study
+
+.pull-left[
+Three main strategies:
+**Heat Mitigation Strategies**
+- Tree Plantings（$82 million）
+- Cool Roofs（over $4 million）
+- Cool Pavements
+
+**Heat Adaptation Strategies**
+- Climate Risk Training for Home Health Aides
+- Be a Buddy NYC（A $930,000 community-led preparedness model）
+- Partnerships for Preventative Messaging
+
+**Monitoring Strategies**
+- Innovative Data Collection（A $300,000 investment）
+]
+
+.pull-right[
+<img src="source/case.png" alt="" width="90%" height="500px">
+]
+
+---
+# Case study
+
+## Economic and Social Benefits
+
+The initiative is expected to yield significant economic and social benefits, including:
+
+* Reduced **energy consumption and costs** due to increased canopy cover and cool roofs, leading to an annual **$1 million** in energy cost savings.
+
+* Enhanced public health outcomes through targeted interventions and educational programs, aiming to decrease **heat-related illnesses and mortality**.
+
+* Improved **environmental quality and biodiversity** through increased green space and urban tree canopies.
+
+* Fostered **community resilience and social cohesion** by empowering community organizations and volunteers to support vulnerable populations during heat emergencies.
+
+---
+class: inverse, center, middle
+
+# Methodology
+
+---
+#Methodology-1: The IPCCʼs Conceptual Framework for Risk Assessment
+.pull-left[
+* Measuring the potential for adverse consequences from climate change.
+
+* Emphasising the connection between climate change events and its consequences for human or ecological systems.
+
+* Improving the ability for decision-makers to understand and manage climate change risk. 
+
+Source: `r Citet(myBib, "IPCC2020")`
+]
+
+.pull-right[
+![](source/IPCC.png)
+Source: `r Citet(myBib, "CC2014")`
+]
+---
+#Methodology-1: The IPCCʼs Conceptual Framework for Risk Assessment
+.pull-left[
+* **Hazard**:  refers to the climate-related physical events or trends or their physical impacts.
+* **Heat Hazard**: The spatial distribution of extreme heat events
+]
+.pull-right[
+* **Vulnerability**: 
+refers to people, livelihoods, species, ecosystems or other matters present in the environment that may be adversely affected.
+* **Heat Vulnerability**: 
+Measuring vulnerable populations potentially affected by extreme heat events
+]
+<img src="source/RISK.png" alt="" width="30%" height="200px">
+
+* **Exposure**: refers to the susceptibility degree to adverse effects related to climate change events, including sensitivity and adaptive capacity. 
+* **Heat Exposure**: The spatial distribution of population density
+---
 # References
 
 ```{r bibliography, results='asis', echo=FALSE, warning=FALSE}
