@@ -22,11 +22,13 @@ library(dplyr)
 library(readr)
 library(readxl)
 library(knitr)
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+install.packages("xaringanthemer")
+install.packages("countdown")
+install.packages("RefManageR")
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
-options(repos = c(CRAN = "https://cloud.r-project.org"))
-install.packages("xaringanthemer")
 library(xaringanthemer)
 style_mono_accent(
   base_color = "#47B5A4",
@@ -38,7 +40,6 @@ style_mono_accent(
 ```
 
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
-install.packages("countdown")
 library(countdown)
 library(xaringan)
 library(xaringanExtra)
@@ -64,7 +65,6 @@ xaringanExtra::use_extra_styles(
 ```
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
-install.packages("RefManageR")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -208,7 +208,10 @@ Source: `r Citet(myBib, "HongKong2021")`
 ]
 ]
 
+---
+class: inverse, center, middle
 
+# Policy: Global & Hong Kong
 
 ---
 
@@ -224,6 +227,9 @@ Source: `r Citet(myBib, "HongKong2021")`
 
 5. Sustainable Development Goals
 
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("source/empty.png")
+```
 
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
@@ -238,9 +244,11 @@ knitr::include_graphics("source/Figure61.png")
 - green building design and sustainable built environment
 - urban forestry and increasing afforestation
 
-```{r echo=FALSE, out.width='60%', fig.align='center'}
+```{r echo=FALSE, out.width='50%', fig.align='center'}
 knitr::include_graphics("source/Figure7.png")
 ```
+Hong Kong Cycling Park
+
 Source: `r Citet(myBib, "EEB2023")`
 
 ---
@@ -248,15 +256,6 @@ Source: `r Citet(myBib, "EEB2023")`
 ## Current Measures to Urban Heat
 
 .pull-left[
-
-
-```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("source/Figure8.png")
-```
-
-Source: `r Citet(myBib, "TLC2020")`
-]
-.pull-right[
 **Coping with urban heat in Hong Kong**
 - night shelters
 - more relief measures for residents in inadequate housing
@@ -268,7 +267,19 @@ Source: `r Citet(myBib, "TLC2020")`
 - heat relief measures/shelters in public places
 - greenery in urban building design
 - research collaboration
+]
+.pull-right[
 
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("source/Figure8.png")
+```
+```{rr echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("source/empty.png")
+```
+
+Mearsures to tackle urban heat
+
+Source: `r Citet(myBib, "TLC2020")`
 ]
 
 
