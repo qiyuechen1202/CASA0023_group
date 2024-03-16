@@ -25,6 +25,8 @@ library(knitr)
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+install.packages("xaringanthemer")
 library(xaringanthemer)
 style_mono_accent(
   base_color = "#47B5A4",
@@ -36,6 +38,7 @@ style_mono_accent(
 ```
 
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
+install.packages("countdown")
 library(countdown)
 library(xaringan)
 library(xaringanExtra)
@@ -61,6 +64,7 @@ xaringanExtra::use_extra_styles(
 ```
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+install.packages("RefManageR")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -78,6 +82,7 @@ class: center, title-slide, middle
 background-image: url("source/cover3.jpg")
 background-size: cover
 background-position: center
+
 
 # Thermal Environment in Hongkong
 ## CASA0023 Group Project
@@ -202,6 +207,70 @@ Source: `r Citet(myBib, "Rinkesh2016")`
 Source: `r Citet(myBib, "HongKong2021")`
 ]
 ]
+
+
+
+---
+
+## Global Policies about Urban Heat Island
+
+1. United Nations' The New Urban Agenda
+
+2. Beating the Heat: A Sustainable Cooling Handbook for Cites
+
+3. The Cool Cities Network
+
+4. The Paris Agreement
+
+5. Sustainable Development Goals
+
+
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("source/Figure61.png")
+```
+
+---
+
+## Current Policy: Hong Kong Climate Action Blueprint 2050
+
+- design standards related to public infrastructure and government buildings
+- green building design and sustainable built environment
+- urban forestry and increasing afforestation
+
+```{r echo=FALSE, out.width='60%', fig.align='center'}
+knitr::include_graphics("source/Figure7.png")
+```
+Source: `r Citet(myBib, "EEB2023")`
+
+---
+
+## Current Measures to Urban Heat
+
+.pull-left[
+
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("source/Figure8.png")
+```
+
+Source: `r Citet(myBib, "TLC2020")`
+]
+.pull-right[
+**Coping with urban heat in Hong Kong**
+- night shelters
+- more relief measures for residents in inadequate housing
+- urban greening in public works
+- greenery and environmentally friendly designs
+
+**Overseas experience in tackling urban heat**
+- specific community/vulnerable groups
+- heat relief measures/shelters in public places
+- greenery in urban building design
+- research collaboration
+
+]
+
 
 ---
 
