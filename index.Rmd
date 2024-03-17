@@ -535,7 +535,15 @@ PrintBibliography(myBib
 
 ```{r bibliography2, results='asis', echo=FALSE, warning=FALSE}
 PrintBibliography(myBib
-                  , start = 7, end = 15
+                  , start = 7, end = 13
                   )
 ```
+---
 
+# References (cont.)
+
+```{r bibliography3, results='asis', echo=FALSE, warning=FALSE}
+PrintBibliography(myBib
+                  , start = 14, end = 20
+                  )
+```
