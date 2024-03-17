@@ -404,7 +404,7 @@ Source: `r Citet(myBib, "PGSD2007")`
 
 - Data Source: **USGS Landsat 8 Level 2, Collection 2, Tier 1**
   - Thermal Infrared Sensor (TIRS) with **thermal bands**.
-  - Providing data after **radiometric correction and atmospheric correction**. 
+  - Providing data **after radiometric correction and atmospheric correction**. 
   - Contains surface reflectance and **land surface temperature (LST:SR_B10)**.
  
 - **Data Information**
@@ -430,6 +430,9 @@ Source: [Earth Engine Data Catalog: Landsat 8](https://developers.google.com/ear
   - Processing：According to the method provided by Zhang, Fan and Xu (2024), remote sensing data can be corrected based on the census dataset.
 
 Source: [Earth Engine Data Catalog: WorldPop Global Project Population Data](https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop)
+
+Source: `r Citet(myBib, "article111")`
+
 ]
 ]
 
@@ -556,7 +559,7 @@ knitr::include_graphics("source/budget.png")
 
 4. Surface temperatures may not represent actual temperatures (Chakraborty et al. 2022)
 
-Source: `r Citet(myBib, "Rinkesh2016")`
+Source: `r Citet(myBib, "https://doi.org/10.1029/2022AV000729")`
 ]
 
 .panel[.panel-name[Ethic & Safety]
@@ -577,7 +580,7 @@ class: inverse, center, middle
 # Summary
 At present, Hong Kong has many measures to reduce risks, but the specific policies are unclear and difficult to implement. 
 
-Thus, we propose our project can combine geospatial technology to mitigate the urban heat island effect and reduce *socio-economic disparities** in Hong Kong through sustainable urban planning and community participation.
+Thus, we propose our project can combine geospatial technology to mitigate the urban heat island effect and reduce **socio-economic disparities** in Hong Kong through sustainable urban planning and community participation.
 .pull-left[
 ```{r echo=FALSE, out.width='150%', fig.align='center'}
 knitr::include_graphics("source/sum1.jpg")
