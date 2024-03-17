@@ -29,7 +29,7 @@
     <script src="libs/tile-view/tile-view.js"></script>
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x13296cb964345489db0ea5ce29792fd","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xe8c05d81476410f81cd5711918627fe","expires":1}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
     <script src="libs/editable/editable.js"></script>
@@ -59,7 +59,7 @@ background-position: center
 ## CASA0023 Group Project
 ### Snow White and the 5 Knights
 
-### 16/03/2024
+### 17/03/2024
 
 ---
 class: inverse, center, middle
@@ -233,10 +233,10 @@ Source: &lt;a name=cite-TLC2020&gt;&lt;/a&gt;[The Legislative Council (2020)](#b
 ---
 class: inverse, center, middle
 
-# Policy: Case study
+# Policy: Case Study
 
 ---
-# Case study
+# Case Study
 
 .pull-left[
 ###"Cool Neighborhoods NYC" 
@@ -249,10 +249,11 @@ The Cool Neighborhoods NYC project identifies heat vulnerability through the dev
 ]
 Source: &lt;a name=cite-PGSD2007&gt;&lt;/a&gt;[Bloomberg (2007)](#bib-PGSD2007)
 ---
-# Case study
+# Case Study
 
 .pull-left[
 Three main strategies:
+
 **Heat Mitigation Strategies**
 - Tree Plantings（$82 million）
 - Cool Roofs（over $4 million）
@@ -272,7 +273,7 @@ Three main strategies:
 ]
 
 ---
-# Case study
+# Case Study
 
 ## Economic and Social Benefits
 
@@ -292,7 +293,8 @@ class: inverse, center, middle
 # Methodology
 
 ---
-#Methodology-1: The IPCCʼs Conceptual Framework for Risk Assessment
+#Methodology-1: 
+##The IPCCʼs Conceptual Framework for Risk Assessment
 .pull-left[
 * Measuring the potential for adverse consequences from climate change.
 
@@ -307,30 +309,84 @@ Source: &lt;a name=cite-IPCC2020&gt;&lt;/a&gt;[IPCC (2020)](#bib-IPCC2020)
 ![](source/IPCC.png)
 Source: &lt;a name=cite-CC2014&gt;&lt;/a&gt;[(USA) (2014)](#bib-CC2014)
 ]
+
 ---
-#Methodology-1: The IPCCʼs Conceptual Framework for Risk Assessment
+#Methodology-1: The Index Definition
+
 .pull-left[
 * **Hazard**:  refers to the climate-related physical events or trends or their physical impacts.
-* **Heat Hazard**: The spatial distribution of extreme heat events
+* **Heat Hazard**: The spatial distribution of extreme heat events.
+
+* **Exposure**: refers to the susceptibility degree to adverse effects related to climate change events, including sensitivity and adaptive capacity. 
+* **Heat Exposure**: The spatial distribution of population density.
+
+Source:[IPCC (2020)](#bib-IPCC2020);&lt;a name=cite-wangHealthintegratedHeatRisk2023&gt;&lt;/a&gt;[Wang, Sun, Huang, Tao, Dong, Das, and Liu (2023)](#bib-wangHealthintegratedHeatRisk2023);&lt;a name=cite-huaSpatiotemporalAssessmentExtreme2021&gt;&lt;/a&gt;[Hua, Zhang, Ren, Shi, and Lee (2021)](#bib-huaSpatiotemporalAssessmentExtreme2021) and &lt;a name=cite-wuSpatiallyExplicitAssessment2024&gt;&lt;/a&gt;[Wu, Xu, Zhang, Su, Wang, and Zhu (2024)](#bib-wuSpatiallyExplicitAssessment2024)
 ]
+
 .pull-right[
 * **Vulnerability**: 
 refers to people, livelihoods, species, ecosystems or other matters present in the environment that may be adversely affected.
 * **Heat Vulnerability**: 
-Measuring vulnerable populations potentially affected by extreme heat events
-]
-&lt;img src="source/RISK.png" alt="" width="30%" height="200px"&gt;
+Measuring vulnerable populations potentially affected by extreme heat events.
 
-* **Exposure**: refers to the susceptibility degree to adverse effects related to climate change events, including sensitivity and adaptive capacity. 
-* **Heat Exposure**: The spatial distribution of population density
+
+]
+
+&lt;img src="source/RISK.png" style="width:30%; position: relative; bottom: 260px; left: 600px;"&gt;
+
+
+
+
+---
+# Methodology-2: Heat Risk Assessment Framework
+&lt;img src="source/Heat risk framework.png" width="150%" style="display: block; margin: auto;" /&gt;
+
+Source: [Bloomberg (2007)](#bib-PGSD2007)
+
+---
+# Methodology-2: Remote Sensing Data
+.panelset[
+.panel[.panel-name[Heat Hazard: LTS]
+
+- Data Source: **USGS Landsat 8 Level 2, Collection 2, Tier 1**
+  - Thermal Infrared Sensor (TIRS) with **thermal bands**.
+  - Providing data after **radiometric correction and atmospheric correction**. 
+  - Contains surface reflectance and **land surface temperature (LST:SR_B10)**.
+ 
+- **Data Information**
+  - Spatial Resolution: 30 metres
+  - Temporal  Resolution : 16 days
+  - Cost : Free
+  - Processing：Band Calculation
+    
+Source: [Earth Engine Data Catalog: Landsat 8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#descriptio)
+]
+
+.panel[.panel-name[Heat Exposure: Population Distribution ]
+
+- Data Source: **WorldPop Global Project Population Data**
+  -  **Ready-to-use product**
+  - A top-down method: Based on an administrative unit-based census, **an improved "random forest" model** is use. [(Stevens et al., 2015)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0107042#sec016)
+  - Providing **spatial flexibility** compared to population data collected by larger administrative units [(WorldPop, 2024)](https://www.worldpop.org/methods/top_down_constrained_vs_unconstrained/)
+
+- **Data Information**
+  - Spatial Resolution: 92.77 metres
+  - Temporal  Range :  Annually
+  - Cost : Free
+  - Processing：According to the method provided by Zhang, Fan and Xu (2024), remote sensing data can be corrected based on the census dataset.
+
+Source: [Earth Engine Data Catalog: WorldPop Global Project Population Data](https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop)
+]
+]
+
 ---
 # References
 
 &lt;a name=bib-CC2014&gt;&lt;/a&gt;[(USA), C. B. F.](#cite-CC2014) (2014). _Climate
-Change 2014: Impacts, Adaptation, and Vulnerability. Part A: Global and
+Change 2014: Impacts, Adaptation, and Vulnerability. Part a: Global and
 Sectoral Aspects. Contribution of Working Group II to the Fifth
 Assessment Report of the Intergovernmental Panel on Climate Change_.
-Technical Summary. Intergovernmental Panel on Climate Change.
+Technical summary. Intergovernmental Panel on Climate Change.
 
 &lt;a name=bib-PGSD2007&gt;&lt;/a&gt;[Bloomberg, M.](#cite-PGSD2007) (2007).
 _PlaNYC: Getting Sustainability Done_.
@@ -338,38 +394,59 @@ _PlaNYC: Getting Sustainability Done_.
 &lt;a name=bib-EEB2023&gt;&lt;/a&gt;[Environment and cology Bureau](#cite-EEB2023)
 (2023). "Hongkong Cycling Park".
 
+&lt;a name=bib-huaSpatiotemporalAssessmentExtreme2021&gt;&lt;/a&gt;[Hua, J., X.
+Zhang, C. Ren, et al.](#cite-huaSpatiotemporalAssessmentExtreme2021)
+(2021). "Spatiotemporal Assessment of Extreme Heat Risk for
+High-Density Cities: A Case Study of Hong Kong from 2006 to 2016". In:
+_Sustainable Cities and Society_ 64, p. 102507. DOI:
+[10.1016/j.scs.2020.102507](https://doi.org/10.1016%2Fj.scs.2020.102507).
+
 &lt;a name=bib-IPCC2020&gt;&lt;/a&gt;[IPCC](#cite-IPCC2020) (2020). _The Concept of
 Risk in the IPCC Sixth Assessment Report: A Summary of Cross-Working
-Group Discussions_. Guidance Note IPCC/2020/GN. Geneva, Switzerland:
+Group Discussions_. Guidance note IPCC/2020/GN. Geneva, Switzerland:
 Intergovernmental Panel on Climate Change.
 
 &lt;a name=bib-HongKong2021&gt;&lt;/a&gt;[Legislative Council of Hong
-Kong](#cite-HongKong2021) (2021). "Measures to tackle urban heat".
-
-&lt;a name=bib-OHK2022&gt;&lt;/a&gt;[Oxfam Hong Kong](#cite-OHK2022) (2022).
-"Annual report 2021/2022".
+Kong](#cite-HongKong2021) (2021). "Measures to Tackle Urban Heat".
 
 ---
 
 # References (cont.)
 
+&lt;a name=bib-OHK2022&gt;&lt;/a&gt;[Oxfam Hong Kong](#cite-OHK2022) (2022).
+"Annual Report 2021/2022".
+
 &lt;a name=bib-Rinkesh2016&gt;&lt;/a&gt;[Rinkesh](#cite-Rinkesh2016) (2016).
-"Effects and solutions to urban heat island".
+"Effects and Solutions to Urban Heat Island".
 
 &lt;a name=bib-TLC2020&gt;&lt;/a&gt;[The Legislative Council](#cite-TLC2020)
-(2020). "Measures to tackle urban heat".
+(2020). "Measures to Tackle Urban Heat".
 
 &lt;a name=bib-Tong2021&gt;&lt;/a&gt;[Tong, S., J. Prior, G. McGregor, et
-al.](#cite-Tong2021) (2021). "Urban heat: an increasing threat to
-global health". In: _The BMJ_ 375. DOI:
+al.](#cite-Tong2021) (2021). "Urban Heat: An Increasing Threat to
+Global Health". In: _The BMJ_ 375. DOI:
 [10.1136/bmj.n2467](https://doi.org/10.1136%2Fbmj.n2467).
 
+&lt;a name=bib-wangHealthintegratedHeatRisk2023&gt;&lt;/a&gt;[Wang, S., Q. C. Sun,
+X. Huang, et al.](#cite-wangHealthintegratedHeatRisk2023) (2023).
+"Health-Integrated Heat Risk Assessment in Australian Cities". In:
+_Environmental Impact Assessment Review_ 102, p. 107176. DOI:
+[10.1016/j.eiar.2023.107176](https://doi.org/10.1016%2Fj.eiar.2023.107176).
+
 &lt;a name=bib-Wong2016&gt;&lt;/a&gt;[Wong, M., F. Peng, B. Zou, et
-al.](#cite-Wong2016) (2016). "Spatially analyzing the inequity of the
-Hong Kong urban heat island by socio-demographic characteristics". In:
+al.](#cite-Wong2016) (2016). "Spatially Analyzing the Inequity of the
+Hong Kong Urban Heat Island by Socio-Demographic Characteristics". In:
 _International Journal of Environmental Research and Public Health_
 13.3, p. 317. DOI:
 [10.3390/ijerph13030317](https://doi.org/10.3390%2Fijerph13030317).
+
+&lt;a name=bib-wuSpatiallyExplicitAssessment2024&gt;&lt;/a&gt;[Wu, H., Y. Xu, M.
+Zhang, et al.](#cite-wuSpatiallyExplicitAssessment2024) (2024).
+"Spatially Explicit Assessment of the Heat-Related Health Risk in the
+Yangtze River Delta, China, Using Multisource Remote Sensing and
+Socioeconomic Data". In: _Sustainable Cities and Society_ 104, p.
+105300. DOI:
+[10.1016/j.scs.2024.105300](https://doi.org/10.1016%2Fj.scs.2024.105300).
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

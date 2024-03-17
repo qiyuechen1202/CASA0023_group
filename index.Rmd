@@ -284,10 +284,10 @@ Source: `r Citet(myBib, "TLC2020")`
 ---
 class: inverse, center, middle
 
-# Policy: Case study
+# Policy: Case Study
 
 ---
-# Case study
+# Case Study
 
 .pull-left[
 ###"Cool Neighborhoods NYC" 
@@ -300,7 +300,7 @@ The Cool Neighborhoods NYC project identifies heat vulnerability through the dev
 ]
 Source: `r Citet(myBib, "PGSD2007")`
 ---
-# Case study
+# Case Study
 
 .pull-left[
 Three main strategies:
@@ -324,7 +324,7 @@ Three main strategies:
 ]
 
 ---
-# Case study
+# Case Study
 
 ## Economic and Social Benefits
 
@@ -344,7 +344,8 @@ class: inverse, center, middle
 # Methodology
 
 ---
-#Methodology-1: The IPCCʼs Conceptual Framework for Risk Assessment
+#Methodology-1: 
+##The IPCCʼs Conceptual Framework for Risk Assessment
 .pull-left[
 * Measuring the potential for adverse consequences from climate change.
 
@@ -359,22 +360,78 @@ Source: `r Citet(myBib, "IPCC2020")`
 ![](source/IPCC.png)
 Source: `r Citet(myBib, "CC2014")`
 ]
+
 ---
-#Methodology-1: The IPCCʼs Conceptual Framework for Risk Assessment
+#Methodology-1: The Index Definition
+
 .pull-left[
 * **Hazard**:  refers to the climate-related physical events or trends or their physical impacts.
-* **Heat Hazard**: The spatial distribution of extreme heat events
+* **Heat Hazard**: The spatial distribution of extreme heat events.
+
+* **Exposure**: refers to the susceptibility degree to adverse effects related to climate change events, including sensitivity and adaptive capacity. 
+* **Heat Exposure**: The spatial distribution of population density.
+
+Source:`r Citet(myBib, "IPCC2020")`;`r Citet(myBib, "wangHealthintegratedHeatRisk2023")`;`r Citet(myBib, "huaSpatiotemporalAssessmentExtreme2021")` and `r Citet(myBib, "wuSpatiallyExplicitAssessment2024")`
 ]
+
 .pull-right[
 * **Vulnerability**: 
 refers to people, livelihoods, species, ecosystems or other matters present in the environment that may be adversely affected.
 * **Heat Vulnerability**: 
-Measuring vulnerable populations potentially affected by extreme heat events
-]
-<img src="source/RISK.png" alt="" width="30%" height="200px">
+Measuring vulnerable populations potentially affected by extreme heat events.
 
-* **Exposure**: refers to the susceptibility degree to adverse effects related to climate change events, including sensitivity and adaptive capacity. 
-* **Heat Exposure**: The spatial distribution of population density
+
+]
+
+<img src="source/RISK.png" style="width:30%; position: relative; bottom: 260px; left: 600px;">
+
+
+
+
+---
+# Methodology-2: Heat Risk Assessment Framework
+```{r echo=FALSE, out.width='150%', fig.align='center'}
+knitr::include_graphics("source/Heat risk framework.png")
+```
+
+Source: `r Citet(myBib, "PGSD2007")`
+
+---
+# Methodology-2: Remote Sensing Data
+.panelset[
+.panel[.panel-name[Heat Hazard: LTS]
+
+- Data Source: **USGS Landsat 8 Level 2, Collection 2, Tier 1**
+  - Thermal Infrared Sensor (TIRS) with **thermal bands**.
+  - Providing data after **radiometric correction and atmospheric correction**. 
+  - Contains surface reflectance and **land surface temperature (LST:SR_B10)**.
+ 
+- **Data Information**
+  - Spatial Resolution: 30 metres
+  - Temporal  Resolution : 16 days
+  - Cost : Free
+  - Processing：Band Calculation
+    
+Source: [Earth Engine Data Catalog: Landsat 8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#descriptio)
+]
+
+.panel[.panel-name[Heat Exposure: Population Distribution ]
+
+- Data Source: **WorldPop Global Project Population Data**
+  -  **Ready-to-use product**
+  - A top-down method: Based on an administrative unit-based census, **an improved "random forest" model** is use. [(Stevens et al., 2015)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0107042#sec016)
+  - Providing **spatial flexibility** compared to population data collected by larger administrative units [(WorldPop, 2024)](https://www.worldpop.org/methods/top_down_constrained_vs_unconstrained/)
+
+- **Data Information**
+  - Spatial Resolution: 92.77 metres
+  - Temporal  Range :  Annually
+  - Cost : Free
+  - Processing：According to the method provided by Zhang, Fan and Xu (2024), remote sensing data can be corrected based on the census dataset.
+
+Source: [Earth Engine Data Catalog: WorldPop Global Project Population Data](https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop)
+]
+]
+
 ---
 # References
 
