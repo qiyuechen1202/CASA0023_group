@@ -575,24 +575,20 @@ class: inverse, center, middle
 
 ---
 # Summary
-**Objective**: Mitigate the Urban Heat Island (UHI) effect and reduce socio-economic disparities in Hong Kong through sustainable urban planning and community engagement.
+At present, Hong Kong has many measures to reduce risks, but the specific policies are unclear and difficult to implement. 
 
+Thus, we propose our project can combine geospatial technology to mitigate the urban heat island effect and reduce *socio-economic disparities** in Hong Kong through sustainable urban planning and community participation.
 .pull-left[
-
-### Strategies:
-
-Implement green infrastructure and innovative cooling technologies.
-Enhance public health and comfort for all, with a focus on vulnerable communities.
-Foster community involvement and provide policy recommendations.
+```{r echo=FALSE, out.width='150%', fig.align='center'}
+knitr::include_graphics("source/sum1.jpg")
+```
 ]
-
 .pull-right[
-### Expected Outcomes:
 
+#### **Expected Outcomes**:
 * **Environmental**: A significant reduction in UHI intensity, creating cooler, more livable urban spaces.
 * **Social**: Improved quality of life through reduced heat risks and increased social equity.
 * **Economic**: Lower energy consumption for cooling, leading to cost savings and sustainability benefits.
-
 ]
 
 ---
