@@ -84,7 +84,8 @@ background-size: cover
 background-position: center
 
 
-# Thermal Environment in Hongkong
+# Heat Risk Assessment in Hong Kong
+## Based on the Influence of Heat Island Effect
 ## CASA0023 Group Project
 ### Snow White and the 5 Knights
 
@@ -419,7 +420,7 @@ Source: [Earth Engine Data Catalog: Landsat 8](https://developers.google.com/ear
 
 - Data Source: **WorldPop Global Project Population Data**
   -  **Ready-to-use product**
-  - A top-down method: Based on an administrative unit-based census, **an improved "random forest" model** is use. [(Stevens et al., 2015)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0107042#sec016)
+  - A top-down method: Based on an administrative unit-based census, **an improved "random forest" model** is used. [(Stevens et al., 2015)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0107042#sec016)
   - Providing **spatial flexibility** compared to population data collected by larger administrative units [(WorldPop, 2024)](https://www.worldpop.org/methods/top_down_constrained_vs_unconstrained/)
 
 - **Data Information**
@@ -435,7 +436,7 @@ Source: [Earth Engine Data Catalog: WorldPop Global Project Population Data](htt
 ---
 class: inverse, center, middle
 
-# Action plan
+# Action Plan
 
 ---
 # General Action plan
@@ -446,7 +447,7 @@ knitr::include_graphics("source/Action/ActionPlan_new.png")
 ```
 
 ---
-# Relevant stakeholders
+# Relevant Stakeholders
 
 .pull-left[
 * **Government**: Responsible for urban planning and governance, such as urban planning department and environmental department. 
@@ -468,7 +469,7 @@ Source:`r Citet(myBib, "barth2011idea")`;`r Citet(myBib, "encyclopedia")`
 <img src="source/Action/Quintuple5H.png" style="width:30%; position: relative; bottom: 170px; left: 600px;">
 
 ---
-# Possible measures
+# Possible Measures
 
 **Hazard-Exposure-Vulnerability Risk Level**
 
