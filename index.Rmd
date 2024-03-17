@@ -449,22 +449,23 @@ knitr::include_graphics("source/Action/ActionPlan_new.png")
 # Relevant stakeholders
 
 .pull-left[
-* **Government**: Governments are primarily responsible for urban planning and management, such as urban planning department and environmental department. 
-* **Academic institution**: Academic institutions are responsible for conducting research on the heat island effect, developing related technologies and methods.
+* **Government**: Responsible for urban planning and governance, such as urban planning department and environmental department. 
+* **Academic institution**: Conducting research on the heat island effect, developing related technologies and methods.
 
-* **Industry and enterprises**: Enterprises have a responsibility to reduce carbon emissions, because they generate a large amount of heat and greenhouse gas emissions in their operations
+* **Industry and enterprises**: Reducing carbon emissions, because they generate a large amount of heat and greenhouse gas emissions in their operations
+
 
 Source:`r Citet(myBib, "barth2011idea")`;`r Citet(myBib, "encyclopedia")`
 ]
 
 .pull-right[
-* **Local community and citizens**: Residents are directly affected by the urban heat island effect. Therefore, they should provide more suggestions and feedback.
+* **Local community and citizens**: Directly affected by the urban heat island effect. So, their suggestions and feedback matter.
 
-* **Environmental protection organization**: We should share our maps with environmental organizations to gather suggestions on facing climate change.
+* **Environmental protection organization**: Sharing our maps with environmental organizations to gather suggestions on facing climate change.
 
 ]
 
-<img src="source/Action/Quintuple5H.png" style="width:30%; position: relative; bottom: 240px; left: 600px;">
+<img src="source/Action/Quintuple5H.png" style="width:30%; position: relative; bottom: 170px; left: 600px;">
 
 ---
 # Possible measures
@@ -475,10 +476,11 @@ Source:`r Citet(myBib, "barth2011idea")`;`r Citet(myBib, "encyclopedia")`
 .panel[.panel-name[Low]
 
 - **Public Education**
-  - Causes and risks of urban heat islands
+  - Knowledge of causes and risks of urban heat islands
+  
 - **Early detection and warning systems**
   - Installation of temperature sensors and establishment of an early warning information platform
-  - When a warning is triggered, this system can send out the warning message on time.
+  - Sending out the warning message on time.
 
 
 Source: [Hong Kong Legislative Council](https://www.legco.gov.hk/research-publications/english/essentials-2021ise04-measures-to-tackle-urban-heat.htm)
@@ -489,7 +491,7 @@ Source: [Hong Kong Legislative Council](https://www.legco.gov.hk/research-public
 - Public Education
 - Early detection and warning systems
 - **High temperature subsidies**
-  - Vulnerable groups are more exposed to hot weather and the urban heat island effect partly because they cannot afford to pay high electricity bills.
+  - *Vulnerable groups* are more exposed to hot weather and the urban heat island effect partly because they cannot afford to pay high electricity bills.
 
 - **Temporary Heat Shelters**
   - By providing *night shelters*, governments can help urban residents cope with the problems caused by hot weather and the urban heat island effect.
