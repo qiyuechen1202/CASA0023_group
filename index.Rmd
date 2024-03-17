@@ -469,7 +469,7 @@ Source:`r Citet(myBib, "barth2011idea")`;`r Citet(myBib, "encyclopedia")`
 ---
 # Possible measures
 
-**Hazard-Exposure-Vulnerability Risk**
+**Hazard-Exposure-Vulnerability Risk Level**
 
 .panelset[
 .panel[.panel-name[Low]
