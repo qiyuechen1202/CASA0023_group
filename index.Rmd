@@ -565,7 +565,9 @@ knitr::include_graphics("source/budget.png")
 **Limitation**
 * Due to the availability of data, our results may have limitations in observing
 the changes from a time series.
-* LST may not represent actual temperature (Chakraborty et al. 2022)Potential Solution: Combining actual temperatures measured by weather stationswith LST to improve data accuracy.
+* LST may not represent actual temperature (Chakraborty et al. 2022)
+
+Potential Solution: Combining actual temperatures measured by weather stationswith LST to improve data accuracy.
 
 Source: `r Citet(myBib, "https://doi.org/10.1029/2022AV000729")`
 ]
