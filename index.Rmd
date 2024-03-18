@@ -85,7 +85,7 @@ background-position: center
 
 
 # Heat Risk Assessment in Hong Kong
-## Based on the Influence of Heat Island Effect
+## Based on the Influences of Heat Island Effect
 ## CASA0023 Group Project
 ### Snow White and the 5 Knights
 
@@ -555,7 +555,7 @@ knitr::include_graphics("source/budget.png")
 1. Only consider the comprehensive risk level, ignoring the differences under different risk types (hazar-exposure-vulnerability), and do not consider the response measures for the three types of risks respectively;
 2. It only proposed the need for more urban greening, but did not give actual suggestions on site selection and location
 
-3. Due to the availability of data, our results are based on the data of 2021, and the research results may have limitations (poor) in timeliness.
+3. Due to the availability of data, our results are based on the data of 2021, and the research results may have limitations in timeliness.
 
 4. Surface temperatures may not represent actual temperatures (Chakraborty et al. 2022)
 
