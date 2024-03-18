@@ -538,10 +538,12 @@ knitr::include_graphics("source/timeline.png")
 ```{r echo=FALSE, out.width='150%', fig.align='center'}
 knitr::include_graphics("source/budget.png")
 ```
+
 ---
 # Risk & Limitations
 .panelset[
-.panel[.panel-name[Risks]
+.panel[.panel-name[Risks & Ethic Considerations ]
+.pull-left[
 **Risk**
 * Funding and Budget Overruns
 * Technological and Implementation Challenges
@@ -549,20 +551,7 @@ knitr::include_graphics("source/budget.png")
 * Environmental Impact
 * Policy and Regulatory Barriers
 ]
-.panel[.panel-name[Limitation]
-
-**Limitation**
-1. Only consider the comprehensive risk level, ignoring the differences under different risk types (hazar-exposure-vulnerability), and do not consider the response measures for the three types of risks respectively;
-2. It only proposed the need for more urban greening, but did not give actual suggestions on site selection and location
-
-3. Due to the availability of data, our results are based on the data of 2021, and the research results may have limitations in timeliness.
-
-4. Surface temperatures may not represent actual temperatures (Chakraborty et al. 2022)
-
-Source: `r Citet(myBib, "https://doi.org/10.1029/2022AV000729")`
-]
-
-.panel[.panel-name[Ethic & Safety]
+.pull-right[
 **Ethic & Safety**
 * Equity and Inclusion
 * Data Privacy and Security
@@ -570,6 +559,17 @@ Source: `r Citet(myBib, "https://doi.org/10.1029/2022AV000729")`
 * Safety Standards for alterations
 * Environmental Ethics
 ]
+]
+.panel[.panel-name[Limitation]
+
+**Limitation**
+* Due to the availability of data, our results may have limitations in observing
+the changes from a time series.
+* LST may not represent actual temperature (Chakraborty et al. 2022)Potential Solution: Combining actual temperatures measured by weather stationswith LST to improve data accuracy.
+
+Source: `r Citet(myBib, "https://doi.org/10.1029/2022AV000729")`
+]
+
 ]
 ---
 class: inverse, center, middle
