@@ -539,7 +539,7 @@ knitr::include_graphics("source/timeline.png")
 knitr::include_graphics("source/budget.png")
 ```
 ---
-# Risk & Ethic Considerations
+# Risk & Limitations
 .panelset[
 .panel[.panel-name[Risks]
 **Risk**
