@@ -84,7 +84,7 @@ background-size: cover
 background-position: center
 
 
-# Heat Risk Assessment in Hong Kong
+# Heat Risk Assessment in Hong Kong, China
 ## Based on the Influences of Heat Island Effect
 ## CASA0023 Group Project
 ### Snow White and the 5 Knights
