@@ -1,5 +1,5 @@
 ---
-title: "Thermal Environment in Hongkong"
+title: "Thermal Environment in Hongkong, China"
 subtitle: ""
 author: "Group Snow White and the 5 Knights"
 institute: "CASA,UCL"
@@ -367,10 +367,10 @@ Source: `r Citet(myBib, "CC2014")`
 
 .pull-left[
 * **Hazard**:  refers to the climate-related physical events or trends or their physical impacts.
-* **Heat Hazard**: The spatial distribution of extreme heat events.
+* **Heat Hazard**: The spatial distribution of **extreme heat events**.
 
 * **Exposure**: refers to the susceptibility degree to adverse effects related to climate change events, including sensitivity and adaptive capacity. 
-* **Heat Exposure**: The spatial distribution of population density.
+* **Heat Exposure**: The spatial distribution of **population density**.
 
 Source:`r Citet(myBib, "IPCC2020")`;`r Citet(myBib, "wangHealthintegratedHeatRisk2023")`;`r Citet(myBib, "huaSpatiotemporalAssessmentExtreme2021")` and `r Citet(myBib, "wuSpatiallyExplicitAssessment2024")`
 ]
@@ -379,7 +379,7 @@ Source:`r Citet(myBib, "IPCC2020")`;`r Citet(myBib, "wangHealthintegratedHeatRis
 * **Vulnerability**: 
 refers to people, livelihoods, species, ecosystems or other matters present in the environment that may be adversely affected.
 * **Heat Vulnerability**: 
-Measuring vulnerable populations potentially affected by extreme heat events.
+Measuring **vulnerable populations** potentially affected by extreme heat events.
 
 
 ]
@@ -400,7 +400,7 @@ Source: `r Citet(myBib, "PGSD2007")`
 ---
 ## Methodology-2: Remote Sensing Data
 .panelset[
-.panel[.panel-name[Heat Hazard: LTS]
+.panel[.panel-name[Heat Hazard: LST]
 
 - Data Source: **USGS Landsat 8 Level 2, Collection 2, Tier 1**
   - Thermal Infrared Sensor (TIRS) with **thermal bands**.
@@ -427,11 +427,10 @@ Source: [Earth Engine Data Catalog: Landsat 8](https://developers.google.com/ear
   - Spatial Resolution: 92.77 metres
   - Temporal  Range :  Annually
   - Cost : Free
-  - Processing：According to the method provided by Zhang, Fan and Xu (2024), remote sensing data can be corrected based on the census dataset.
+  - Processing：According to the method provided by `r Citet(myBib, "article111")`, remote sensing data can be corrected based on the census dataset.
 
 Source: [Earth Engine Data Catalog: WorldPop Global Project Population Data](https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop)
 
-Source: `r Citet(myBib, "article111")`
 
 ]
 ]
@@ -439,7 +438,7 @@ Source: `r Citet(myBib, "article111")`
 ---
 class: inverse, center, middle
 
-# Action Plan
+# General Action
 
 ---
 # General Action plan
