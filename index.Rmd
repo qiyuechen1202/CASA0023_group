@@ -405,7 +405,7 @@ Source: `r Citet(myBib, "PGSD2007")`
 - Data Source: **USGS Landsat 8 Level 2, Collection 2, Tier 1**
   - Thermal Infrared Sensor (TIRS) with **thermal bands**.
   - Providing data **after radiometric correction and atmospheric correction**. 
-  - Contains surface reflectance and **land surface temperature (LST:SR_B10)**.
+  - Contains surface reflectance and **land surface temperature (LST:B10)**.
  
 - **Data Information**
   - Spatial Resolution: 30 metres
